@@ -1,0 +1,25 @@
+name: auth
+description: The auth feature of flutter advanced boilerplate.
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=3.1.4 <4.0.0"
+
+dependencies:
+  commons:
+    path: ../../infrastructure/commons
+  dependencies:
+    path: ../../infrastructure/dependencies
+  flutter:
+    sdk: flutter
+  locator:
+    path: ../../infrastructure/locator
+  networking:
+    path: ../../infrastructure/networking
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  freezed: ^2.4.5
+  injectable_generator: ^2.4.1
+  json_serializable: ^6.7.1

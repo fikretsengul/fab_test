@@ -1,0 +1,26 @@
+name: app
+description: Main app of flutter advanced boilerplate.
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=3.1.4 <4.0.0"
+
+dependencies:
+  analytics:
+    path: ../infrastructure/analytics
+  auth:
+    path: ../features/auth
+  commons:
+    path: ../infrastructure/commons
+  dependencies:
+    path: ../infrastructure/dependencies
+  flutter:
+    sdk: flutter
+  locator:
+    path: ../infrastructure/locator
+  routing:
+    path: ../infrastructure/routing
+  statsfl: ^2.3.0
+  storage:
+    path: ../infrastructure/storage

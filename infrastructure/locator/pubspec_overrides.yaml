@@ -1,0 +1,14 @@
+# melos_managed_dependency_overrides: analytics,auth,commons,dependencies,networking,storage
+dependency_overrides:
+  analytics:
+    path: ../analytics
+  auth:
+    path: ../../features/auth
+  commons:
+    path: ../commons
+  dependencies:
+    path: ../dependencies
+  networking:
+    path: ../networking
+  storage:
+    path: ../storage

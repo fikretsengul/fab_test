@@ -1,0 +1,14 @@
+# melos_managed_dependency_overrides: commons,dependencies,networking,storage,analytics,locator
+dependency_overrides:
+  analytics:
+    path: ../../infrastructure/analytics
+  commons:
+    path: ../../infrastructure/commons
+  dependencies:
+    path: ../../infrastructure/dependencies
+  locator:
+    path: ../../infrastructure/locator
+  networking:
+    path: ../../infrastructure/networking
+  storage:
+    path: ../../infrastructure/storage

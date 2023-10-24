@@ -1,0 +1,1060 @@
+The Dart VM service is listening on http://127.0.0.1:64365/JcJvuS1g3DY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:64365/JcJvuS1g3DY=/devtools?uri=ws://127.0.0.1:64365/JcJvuS1g3DY=/ws
+The Dart VM service is listening on http://127.0.0.1:64417/ynOwXj5RBCs=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:64417/ynOwXj5RBCs=/devtools?uri=ws://127.0.0.1:64417/ynOwXj5RBCs=/ws
+[custom_lint client] 2023-10-23T20:26:42.974797 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T20:26:42.974797 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T20:26:42.974797 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T20:26:42.974797 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T20:26:42.974797 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T20:26:42.974797 <asynchronous suspension>
+[custom_lint client] 2023-10-23T20:26:42.974797 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T20:26:42.974797 <asynchronous suspension>
+[custom_lint client] 2023-10-23T20:26:42.974797 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T20:26:42.974797 <asynchronous suspension>
+[custom_lint client] 2023-10-23T20:26:42.974797
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50276/MZsTg4GY2Io=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50276/MZsTg4GY2Io=/devtools?uri=ws://127.0.0.1:50276/MZsTg4GY2Io=/ws
+[custom_lint client] 2023-10-23T21:46:53.228249 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:46:53.228249 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:46:53.228249 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:46:53.228249 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:46:53.228249 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:46:53.228249 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:46:53.228249 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:46:53.228249 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:46:53.228249 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:46:53.228249 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:46:53.228249
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50315/xnw3knR53B4=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50315/xnw3knR53B4=/devtools?uri=ws://127.0.0.1:50315/xnw3knR53B4=/ws
+[custom_lint client] 2023-10-23T21:47:18.831382 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:47:18.831382 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:47:18.831382 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:47:18.831382 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:47:18.831382 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:47:18.831382 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:47:18.831382 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:47:18.831382 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:47:18.831382 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:47:18.831382 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:47:18.831382
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50353/MgUz_WpC3yY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50353/MgUz_WpC3yY=/devtools?uri=ws://127.0.0.1:50353/MgUz_WpC3yY=/ws
+[custom_lint client] 2023-10-23T21:47:37.456219 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:47:37.456219 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:47:37.456219 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:47:37.456219 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:47:37.456219 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:47:37.456219 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:47:37.456219 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:47:37.456219 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:47:37.456219 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:47:37.456219 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:47:37.456219
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50410/oJcKGu1ujko=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50410/oJcKGu1ujko=/devtools?uri=ws://127.0.0.1:50410/oJcKGu1ujko=/ws
+[custom_lint client] 2023-10-23T21:48:41.023336 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:48:41.023336 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:48:41.023336 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:48:41.023336 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:48:41.023336 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:48:41.023336 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:48:41.023336 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:48:41.023336 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:48:41.023336 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:48:41.023336 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:48:41.023336
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50483/Zleouwm6wmY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50483/Zleouwm6wmY=/devtools?uri=ws://127.0.0.1:50483/Zleouwm6wmY=/ws
+[custom_lint client] 2023-10-23T21:50:13.587625 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:50:13.587625 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:50:13.587625 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:50:13.587625 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:50:13.587625 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:50:13.587625 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:50:13.587625 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:50:13.587625 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:50:13.587625 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:50:13.587625 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:50:13.587625
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50585/ERueTHcTvhU=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50585/ERueTHcTvhU=/devtools?uri=ws://127.0.0.1:50585/ERueTHcTvhU=/ws
+[custom_lint client] 2023-10-23T21:52:37.106851 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:52:37.106851 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:52:37.106851 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:52:37.106851 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:52:37.106851 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:52:37.106851 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:52:37.106851 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:52:37.106851 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:52:37.106851 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:52:37.106851 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:52:37.106851
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50773/OudNyzHUT4Y=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50773/OudNyzHUT4Y=/devtools?uri=ws://127.0.0.1:50773/OudNyzHUT4Y=/ws
+[custom_lint client] 2023-10-23T21:55:01.340908 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:55:01.340908 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:55:01.340908 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:55:01.340908 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:55:01.340908 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:55:01.340908 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:01.340908 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:55:01.340908 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:01.340908 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:55:01.340908 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:01.340908
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50888/f9vFA7w9H3g=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50888/f9vFA7w9H3g=/devtools?uri=ws://127.0.0.1:50888/f9vFA7w9H3g=/ws
+[custom_lint client] 2023-10-23T21:55:18.150463 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:55:18.150463 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:55:18.150463 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:55:18.150463 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:55:18.150463 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:55:18.150463 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:18.150463 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:55:18.150463 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:18.150463 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:55:18.150463 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:18.150463
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:50988/2vMcg8-iCUQ=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50988/2vMcg8-iCUQ=/devtools?uri=ws://127.0.0.1:50988/2vMcg8-iCUQ=/ws
+[custom_lint client] 2023-10-23T21:55:44.614989 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:55:44.614989 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:55:44.614989 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:55:44.614989 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:55:44.614989 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:55:44.614989 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:44.614989 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:55:44.614989 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:44.614989 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:55:44.614989 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:55:44.614989
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:51153/AW4R-uBN8qk=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:51153/AW4R-uBN8qk=/devtools?uri=ws://127.0.0.1:51153/AW4R-uBN8qk=/ws
+[custom_lint client] 2023-10-23T21:57:33.332656 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:57:33.332656 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:57:33.332656 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:57:33.332656 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:57:33.332656 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:57:33.332656 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:57:33.332656 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:57:33.332656 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:57:33.332656 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:57:33.332656 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:57:33.332656
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:51261/z1LilijX4aQ=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:51261/z1LilijX4aQ=/devtools?uri=ws://127.0.0.1:51261/z1LilijX4aQ=/ws
+[custom_lint client] 2023-10-23T21:58:05.241997 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:58:05.241997 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:58:05.241997 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:58:05.241997 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:58:05.241997 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:58:05.241997 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:58:05.241997 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:58:05.241997 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:58:05.241997 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:58:05.241997 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:58:05.241997
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:51377/aXQMcJCT0QQ=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:51377/aXQMcJCT0QQ=/devtools?uri=ws://127.0.0.1:51377/aXQMcJCT0QQ=/ws
+[custom_lint client] 2023-10-23T21:58:28.466032 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T21:58:28.466032 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T21:58:28.466032 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T21:58:28.466032 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T21:58:28.466032 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T21:58:28.466032 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:58:28.466032 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T21:58:28.466032 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:58:28.466032 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T21:58:28.466032 <asynchronous suspension>
+[custom_lint client] 2023-10-23T21:58:28.466032
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:52070/Iy5xW4EkixA=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:52070/Iy5xW4EkixA=/devtools?uri=ws://127.0.0.1:52070/Iy5xW4EkixA=/ws
+[custom_lint client] 2023-10-23T22:03:43.967476 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T22:03:43.967476 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T22:03:43.967476 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T22:03:43.967476 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T22:03:43.967476 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T22:03:43.967476 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:03:43.967476 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T22:03:43.967476 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:03:43.967476 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T22:03:43.967476 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:03:43.967476
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:52179/IaFICZODXHU=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:52179/IaFICZODXHU=/devtools?uri=ws://127.0.0.1:52179/IaFICZODXHU=/ws
+[custom_lint client] 2023-10-23T22:04:05.349816 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T22:04:05.349816 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T22:04:05.349816 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T22:04:05.349816 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T22:04:05.349816 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T22:04:05.349816 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:04:05.349816 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T22:04:05.349816 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:04:05.349816 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T22:04:05.349816 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:04:05.349816
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:52496/Vj1DtKPs1sM=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:52496/Vj1DtKPs1sM=/devtools?uri=ws://127.0.0.1:52496/Vj1DtKPs1sM=/ws
+[custom_lint client] 2023-10-23T22:06:55.977954 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T22:06:55.977954 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T22:06:55.977954 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T22:06:55.977954 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T22:06:55.977954 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T22:06:55.977954 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:06:55.977954 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T22:06:55.977954 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:06:55.977954 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T22:06:55.977954 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:06:55.977954
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:52633/5_OoyMPwHME=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:52633/5_OoyMPwHME=/devtools?uri=ws://127.0.0.1:52633/5_OoyMPwHME=/ws
+[custom_lint client] 2023-10-23T22:07:09.661439 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T22:07:09.661439 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T22:07:09.661439 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T22:07:09.661439 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T22:07:09.661439 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T22:07:09.661439 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:09.661439 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T22:07:09.661439 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:09.661439 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T22:07:09.661439 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:09.661439
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:52688/iCosGU5y7es=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:52688/iCosGU5y7es=/devtools?uri=ws://127.0.0.1:52688/iCosGU5y7es=/ws
+[custom_lint client] 2023-10-23T22:07:37.941419 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T22:07:37.941419 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T22:07:37.941419 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T22:07:37.941419 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T22:07:37.941419 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T22:07:37.941419 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:37.941419 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T22:07:37.941419 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:37.941419 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T22:07:37.941419 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:37.941419
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:52732/MDDiZGZouRw=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:52732/MDDiZGZouRw=/devtools?uri=ws://127.0.0.1:52732/MDDiZGZouRw=/ws
+[custom_lint client] 2023-10-23T22:07:55.036447 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T22:07:55.036447 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T22:07:55.036447 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T22:07:55.036447 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T22:07:55.036447 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T22:07:55.036447 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:55.036447 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T22:07:55.036447 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:55.036447 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T22:07:55.036447 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:07:55.036447
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:52800/pe-9G9sh_H0=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:52800/pe-9G9sh_H0=/devtools?uri=ws://127.0.0.1:52800/pe-9G9sh_H0=/ws
+[custom_lint client] 2023-10-23T22:08:28.437358 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T22:08:28.437358 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T22:08:28.437358 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T22:08:28.437358 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T22:08:28.437358 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T22:08:28.437358 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:08:28.437358 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T22:08:28.437358 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:08:28.437358 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T22:08:28.437358 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:08:28.437358
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:53298/2ft0GVna7bM=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:53298/2ft0GVna7bM=/devtools?uri=ws://127.0.0.1:53298/2ft0GVna7bM=/ws
+[custom_lint client] 2023-10-23T22:16:54.871674 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T22:16:54.871674 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T22:16:54.871674 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T22:16:54.871674 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T22:16:54.871674 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T22:16:54.871674 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:16:54.871674 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T22:16:54.871674 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:16:54.871674 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T22:16:54.871674 <asynchronous suspension>
+[custom_lint client] 2023-10-23T22:16:54.871674
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:55250/VNowmVLa22k=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:55250/VNowmVLa22k=/devtools?uri=ws://127.0.0.1:55250/VNowmVLa22k=/ws
+[custom_lint client] 2023-10-23T23:07:01.751356 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T23:07:01.751356 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T23:07:01.751356 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T23:07:01.751356 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T23:07:01.751356 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T23:07:01.751356 <asynchronous suspension>
+[custom_lint client] 2023-10-23T23:07:01.751356 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T23:07:01.751356 <asynchronous suspension>
+[custom_lint client] 2023-10-23T23:07:01.751356 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T23:07:01.751356 <asynchronous suspension>
+[custom_lint client] 2023-10-23T23:07:01.751356
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+The Dart VM service is listening on http://127.0.0.1:55318/uVEULjDgTtg=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:55318/uVEULjDgTtg=/devtools?uri=ws://127.0.0.1:55318/uVEULjDgTtg=/ws
+[custom_lint client] 2023-10-23T23:07:32.184831 PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+[custom_lint client] 2023-10-23T23:07:32.184831 #0      _checkForErrorResponse (dart:io/common.dart:55:9)
+[custom_lint client] 2023-10-23T23:07:32.184831 #1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+[custom_lint client] 2023-10-23T23:07:32.184831 #2      _rootRunUnary (dart:async/zone.dart:1407:47)
+[custom_lint client] 2023-10-23T23:07:32.184831 #3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[custom_lint client] 2023-10-23T23:07:32.184831 <asynchronous suspension>
+[custom_lint client] 2023-10-23T23:07:32.184831 #4      _File.readAsString (dart:io/file_impl.dart:621:18)
+[custom_lint client] 2023-10-23T23:07:32.184831 <asynchronous suspension>
+[custom_lint client] 2023-10-23T23:07:32.184831 #5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+[custom_lint client] 2023-10-23T23:07:32.184831 <asynchronous suspension>
+[custom_lint client] 2023-10-23T23:07:32.184831
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:PathNotFoundException: Cannot open file, path = '/Users/fikretsengul/flutter_advanced_boilerplate/features/pubspec.yaml' (OS Error: No such file or directory, errno = 2)
+#0      _checkForErrorResponse (dart:io/common.dart:55:9)
+#1      _File.open.<anonymous closure> (dart:io/file_impl.dart:381:7)
+#2      _rootRunUnary (dart:async/zone.dart:1407:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+<asynchronous suspension>
+#4      _File.readAsString (dart:io/file_impl.dart:621:18)
+<asynchronous suspension>
+#5      parsePubspec (package:custom_lint/src/package_utils.dart:84:24)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:282:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:276:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:253:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:145:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+

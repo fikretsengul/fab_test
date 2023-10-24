@@ -1,0 +1,18 @@
+name: flutter_advanced_boilerplate
+
+packages:
+  - app/*
+  - features/**
+  - infrastructure/**
+
+scripts:
+  postbootstrap:
+    run: melos generate:flutter
+  analyze:
+    exec: flutter analyze .
+  pub_get:
+    exec: flutter pub get
+  clean:
+    exec: flutter clean
+  test:
+    exec: flutter test
