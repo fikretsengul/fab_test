@@ -1,8 +1,28 @@
 name: flutter_advanced_boilerplate
+description: An advanced monorepo flutter boilerplate.
 publish_to: none
+version: 0.0.1
 
 environment:
   sdk: ">=3.1.4 <4.0.0"
+
+dependencies:
+  analytics:
+    path: packages/core/analytics
+  auth:
+    path: packages/features/auth
+  commons:
+    path: packages/core/commons
+  dependencies:
+    path: packages/dependencies
+  flutter:
+    sdk: flutter
+  locator:
+    path: packages/locator
+  routing:
+    path: packages/core/routing
+  storage:
+    path: packages/core/storage
 
 dev_dependencies:
   custom_lint: ^0.5.4

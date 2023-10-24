@@ -1,9 +1,15 @@
 name: flutter_advanced_boilerplate
 
 packages:
-  - app/*
-  - features/**
-  - infrastructure/**
+  - .
+  - packages/core/**
+  - packages/dependencies
+  - packages/features/**
+  - packages/locator
+
+command:
+  bootstrap:
+    runPubGetInParallel: false
 
 scripts:
   postbootstrap:
