@@ -1,10 +1,11 @@
+// ignore_for_file: avoid_returning_widgets
 import 'package:flutter/material.dart';
 import 'package:routing/application.dart';
 import 'package:routing/page.dart';
 
 import '../router/pages.dart';
 
-typedef OnNavCallback = void Function(BuildContext context);
+typedef OnNavCallback = ValueChanged<BuildContext>;
 
 class Destination {
   const Destination({

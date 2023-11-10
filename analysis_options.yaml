@@ -28,17 +28,16 @@ analyzer:
 
 custom_lint:
   rules:
+    - prefer_declaring_const_constructors: false
     - max_lines_for_file:
       max_lines: 100
     - max_lines_for_function:
       max_lines: 50
-    - boolean_prefix:
-      valid_prefixes: ["at"]
-    - avoid_abbreviations_in_doc_comments:
-      abbreviations: ["approx."]
 
 linter:
   rules:
+    lines_longer_than_80_chars: false
+    do_not_use_environment: false
     discarded_futures: false
     prefer_expression_function_bodies: false
     avoid_catches_without_on_clauses: false

@@ -1,7 +1,7 @@
 abstract class IEnv {
-  String get baseUrl;
+  String get apiUrl;
 
   String get analyticsUrl;
 
-  bool get debug;
+  bool get isDebug;
 }

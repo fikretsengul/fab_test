@@ -1,4 +1,5 @@
 # Miscellaneous
+*.lock
 *.class
 *.log
 *.pyc
@@ -16,21 +17,26 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# Visual Studio Code related
+.vscode/*
+!.vscode/tasks.json
+!.vscode/settings.json
 
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
 .flutter-plugins
-.flutter-plugins-dependencies
+.flutter-plugins-deps
 .packages
 .pub-cache/
 .pub/
 /build/
+pubspec.lock
+pubspec_overrides.yaml
+
+# FVM Version Cache
+.fvm
 
 # Symbolication related
 app.*.symbols

@@ -4,13 +4,13 @@ publish_to: "none"
 version: 0.0.1
 
 environment:
-  sdk: ">=3.1.4 <4.0.0"
+  sdk: ">=3.1.5 <4.0.0"
 
 dependencies:
   commons:
     path: ../commons/
-  dependencies:
-    path: ../../dependencies/
+  deps:
+    path: ../../deps/
   flutter:
     sdk: flutter
   flutter_secure_storage: ^9.0.0

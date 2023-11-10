@@ -1,7 +1,7 @@
 import 'package:commons/enums.dart';
 import 'package:commons/envs.dart';
 import 'package:commons/errors.dart';
-import 'package:dependencies/injectable.dart';
+import 'package:deps/injectable.dart';
 
 import '../../analytics.dart';
 import '../../logger.dart';
@@ -36,7 +36,7 @@ class FailureObserver implements IFailureObserver {
         );
     }
 
-    if (_env.debug) {
+    if (_env.isDebug) {
       _analytics.send(message);
     }
   }

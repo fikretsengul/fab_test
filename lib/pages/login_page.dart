@@ -1,5 +1,5 @@
 import 'package:auth/auth.dart';
-import 'package:dependencies/flutter_bloc.dart';
+import 'package:deps/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:locator/locator.dart';
 import 'package:routing/application.dart';
@@ -10,7 +10,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => di<LoginBloc>(),
+      create: (_) => di<LoginBloc>(),
       child: Scaffold(
         body: Center(
           child: Column(

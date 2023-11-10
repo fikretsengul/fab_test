@@ -1,4 +1,4 @@
-import 'package:dependencies/injectable.dart';
+import 'package:deps/injectable.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
 import 'i_analytics.dart';

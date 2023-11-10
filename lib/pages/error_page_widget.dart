@@ -7,7 +7,7 @@ class ErrorPageWidget extends StatelessWidget {
   static ErrorPage delegate = ErrorPage(
     name: ErrorPageWidget.name,
     path: ErrorPageWidget.path,
-    builder: (context, exception) => ErrorPageWidget(exception: exception),
+    builder: (_, exception) => ErrorPageWidget(exception: exception),
   );
 
   static const String name = 'Error';

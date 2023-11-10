@@ -1,4 +1,4 @@
-import 'package:dependencies/fpdart.dart';
+import 'package:deps/fpdart.dart';
 
 import '../errors/failure.dart';
 

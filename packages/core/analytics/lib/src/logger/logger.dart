@@ -1,4 +1,4 @@
-import 'package:dependencies/injectable.dart';
+import 'package:deps/injectable.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 
 import 'i_logger.dart';
@@ -38,6 +38,7 @@ class Logger implements ILogger {
     dynamic data,
   }) {
     _talker.debug(
-        "\n• MESSAGE\t› $message${data != null ? '\n• DATA\t› $data' : ''}",);
+      "\n• MESSAGE\t› $message${data != null ? '\n• DATA\t› $data' : ''}",
+    );
   }
 }

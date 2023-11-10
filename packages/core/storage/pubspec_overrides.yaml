@@ -1,14 +1,14 @@
-# melos_managed_dependency_overrides: dependencies,commons,networking,analytics,auth,locator
+# melos_managed_dependency_overrides: analytics,auth,commons,deps,locator,networking
 dependency_overrides:
   analytics:
     path: ../analytics
   auth:
-    path: ../../features/auth
+    path: ../../../features/auth
   commons:
     path: ../commons
-  dependencies:
-    path: ../dependencies
+  deps:
+    path: ../../deps
   locator:
-    path: ../locator
+    path: ../../locator
   networking:
     path: ../networking

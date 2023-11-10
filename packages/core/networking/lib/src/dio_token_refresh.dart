@@ -1,4 +1,4 @@
-import 'package:dependencies/injectable.dart';
+import 'package:deps/injectable.dart';
 import 'package:storage/storage.dart';
 
 import 'interceptors/token_refresh_interceptor.dart';

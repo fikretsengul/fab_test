@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:commons/envs.dart';
 import 'package:commons/errors.dart';
 import 'package:commons/types.dart';
-import 'package:dependencies/dio.dart';
-import 'package:dependencies/fpdart.dart';
-import 'package:dependencies/injectable.dart';
+import 'package:deps/dio.dart';
+import 'package:deps/fpdart.dart';
+import 'package:deps/injectable.dart';
 import 'package:dio_smart_retry/dio_smart_retry.dart';
 import 'package:flutter/foundation.dart';
 import 'package:storage/storage.dart';
@@ -23,9 +23,8 @@ import 'token/o_auth2_token.dart';
 class DioClient implements INetworkClient {
   DioClient(this._env, this._dio, this._storage) {
     _dio
-      ..options.baseUrl = _env.baseUrl
-      ..options.headers['Accept-Language'] =
-          kIsWeb ? 'en-US' : Platform.localeName.substring(0, 2)
+      ..options.baseUrl = _env.apiUrl
+      ..options.headers['Accept-Language'] = kIsWeb ? 'en-US' : Platform.localeName.substring(0, 2)
       ..options.connectTimeout = const Duration(seconds: 10)
       ..options.receiveTimeout = const Duration(seconds: 10)
       ..interceptors.add(NoNetworkInterceptor())
@@ -41,7 +40,7 @@ class DioClient implements INetworkClient {
         ),
       );
 
-    if (_env.debug) {
+    if (_env.isDebug) {
 /*       _dio.interceptors.add(
         TalkerDioLogger(
           settings: const TalkerDioLoggerSettings(

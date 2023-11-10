@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:dependencies/injectable.dart';
+import 'package:deps/injectable.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:networking/networking.dart';
 

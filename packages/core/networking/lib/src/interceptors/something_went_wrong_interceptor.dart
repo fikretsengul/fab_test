@@ -1,4 +1,4 @@
-import 'package:dependencies/dio.dart';
+import 'package:deps/dio.dart';
 
 import '../exceptions/dio_exceptions.dart';
 

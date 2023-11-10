@@ -4,18 +4,18 @@ publish_to: "none"
 version: 0.0.1
 
 environment:
-  sdk: ">=3.1.4 <4.0.0"
+  sdk: ">=3.1.5 <4.0.0"
 
 dependencies:
   analytics:
     path: ../analytics/
   commons:
     path: ../commons/
-  dependencies:
-    path: ../../dependencies/
+  deps:
+    path: ../../deps/
   flutter:
     sdk: flutter
-  go_router: ^12.0.0
+  go_router: ^12.1.1
   storage:
     path: ../storage/
 

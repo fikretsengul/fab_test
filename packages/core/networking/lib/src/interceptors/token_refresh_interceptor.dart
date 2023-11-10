@@ -1,4 +1,4 @@
-import 'package:dependencies/dio.dart';
+import 'package:deps/dio.dart';
 import 'package:storage/storage.dart';
 
 import '../token/o_auth2_token.dart';
@@ -30,8 +30,7 @@ typedef TokenHeaderBuilder<T> = Map<String, String> Function(
 ///   ),
 /// );
 /// ```
-class TokenRefreshInterceptor<T> extends QueuedInterceptor
-    with TokenStorageMixin<T> {
+class TokenRefreshInterceptor<T> extends QueuedInterceptor with TokenStorageMixin<T> {
   TokenRefreshInterceptor({
     required TokenHeaderBuilder<T> tokenHeader,
     required IStorage<T> tokenStorage,
@@ -56,10 +55,7 @@ class TokenRefreshInterceptor<T> extends QueuedInterceptor
     ErrorInterceptorHandler handler,
   ) async {
     final response = err.response;
-    if (response == null ||
-        await token == null ||
-        err.error is RevokeTokenException ||
-        !_shouldRefresh(response)) {
+    if (response == null || await token == null || err.error is RevokeTokenException || !_shouldRefresh(response)) {
       return handler.next(err);
     }
     try {
@@ -76,9 +72,7 @@ class TokenRefreshInterceptor<T> extends QueuedInterceptor
     RequestInterceptorHandler handler,
   ) async {
     final currentToken = await token;
-    final headers = currentToken != null
-        ? _tokenHeader(currentToken)
-        : const <String, String>{};
+    final headers = currentToken != null ? _tokenHeader(currentToken) : const <String, String>{};
     options.headers.addAll(headers);
     handler.next(options);
   }
@@ -158,13 +152,11 @@ class TokenRefreshInterceptor<T> extends QueuedInterceptor
         sendTimeout: response.requestOptions.sendTimeout,
         receiveTimeout: response.requestOptions.receiveTimeout,
         extra: response.requestOptions.extra,
-        headers: response.requestOptions.headers
-          ..addAll(_tokenHeader(refreshedToken)),
+        headers: response.requestOptions.headers..addAll(_tokenHeader(refreshedToken)),
         responseType: response.requestOptions.responseType,
         contentType: response.requestOptions.contentType,
         validateStatus: response.requestOptions.validateStatus,
-        receiveDataWhenStatusError:
-            response.requestOptions.receiveDataWhenStatusError,
+        receiveDataWhenStatusError: response.requestOptions.receiveDataWhenStatusError,
         followRedirects: response.requestOptions.followRedirects,
         maxRedirects: response.requestOptions.maxRedirects,
         requestEncoder: response.requestOptions.requestEncoder,

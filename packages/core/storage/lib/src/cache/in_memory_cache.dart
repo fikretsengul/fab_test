@@ -1,4 +1,4 @@
-import 'package:dependencies/injectable.dart';
+import 'package:deps/injectable.dart';
 
 import 'i_cache.dart';
 

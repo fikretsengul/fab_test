@@ -4,17 +4,17 @@ publish_to: none
 version: 0.0.1
 
 environment:
-  sdk: ">=3.1.4 <4.0.0"
+  sdk: ">=3.1.5 <4.0.0"
 
 dependencies:
   analytics:
     path: packages/core/analytics
   auth:
-    path: packages/features/auth
+    path: features/auth
   commons:
     path: packages/core/commons
-  dependencies:
-    path: packages/dependencies
+  deps:
+    path: packages/deps
   flutter:
     sdk: flutter
   locator:
@@ -25,6 +25,13 @@ dependencies:
     path: packages/core/storage
 
 dev_dependencies:
-  custom_lint: ^0.5.4
-  melos: ^3.1.1
+  custom_lint: ^0.5.6
+  melos: ^3.2.0
   pyramid_lint: ^1.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+assets:
+  - .env

@@ -1,4 +1,4 @@
-import 'package:dependencies/dio.dart';
+import 'package:deps/dio.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 import 'package:locator/locator.dart';
 

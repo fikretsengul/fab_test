@@ -1,8 +1,8 @@
 import 'package:analytics/analytics.dart';
 import 'package:analytics/logger.dart';
 import 'package:auth/auth.dart';
-import 'package:dependencies/flutter_bloc.dart';
-import 'package:dependencies/injectable.dart';
+import 'package:deps/flutter_bloc.dart';
+import 'package:deps/flutter_dotenv.dart';
 import 'package:flutter/material.dart' hide Router;
 import 'package:locator/locator.dart';
 import 'package:routing/application.dart';
@@ -12,10 +12,21 @@ import 'package:storage/cache.dart';
 import 'pages/error_page_widget.dart';
 import 'router/pages.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  initLocator(dev);
+  // Inits env.
+  await dotenv.load();
+
+  /// I don’t really like the code duplication implied by
+  /// having multiple main_*.dart files. I prefer determining
+  /// the environment at runtime using the package name & build
+  /// flavors or adding --dart-define=flavor=prod and calling
+  /// String.fromEnvironment('flavor') to initialize the locator.
+  const env = String.fromEnvironment('flavor', defaultValue: 'dev');
+
+  // Inits service locator.
+  initLocator(env);
 
   runApp(
     BlocProvider(
